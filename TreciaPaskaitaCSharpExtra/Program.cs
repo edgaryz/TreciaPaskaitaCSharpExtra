@@ -132,7 +132,12 @@
         /*task 7*/
         public static void CheckArrayTwoElementsMoreThanFifty(int[] arr)
         {
-            if ((arr[0] > 50 && arr[1] > 50) || (arr[0] > 50 && arr[2] > 50) || (arr[0] > 50 && arr[3] > 50) || (arr[1] > 50 && arr[2] > 50) || (arr[1] > 50 && arr[3] > 50) || (arr[2] > 50 && arr[3] > 50))
+            if ((arr[0] > 50 && arr[1] > 50) || 
+                (arr[0] > 50 && arr[2] > 50) || 
+                (arr[0] > 50 && arr[3] > 50) || 
+                (arr[1] > 50 && arr[2] > 50) || 
+                (arr[1] > 50 && arr[3] > 50) || 
+                (arr[2] > 50 && arr[3] > 50))
             {
                 Console.WriteLine("Bent du elementai didesni už 50");
             }
